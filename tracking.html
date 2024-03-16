@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navigation Menu Bar</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    /* Add custom styles here */
+    
+    .carousel-item img {
+      width: 100%;
+      height: auto;
+    }
+    h2{
+      padding-left: 20px;
+    }
+    .roundsap{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: aquamarine;
+        z-index: 1;
+    }
+    .roundsap span{
+        position: relative;
+        top: 12px;
+        font-weight: bold;
+    }
+    .dvry{
+        display: flex;
+        /* margin: 30px; */
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .dvry h3{
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 22px;
+        
+    }
+    .border{
+        width: 83px;
+        height: 5px;
+        background-color: black;
+        position: absolute;
+        transform: rotate(90deg);
+        top: 80px;
+        left: -18px;
+    }
+    .border1{
+        width: 83px;
+        height: 3px;
+        background-color: black;
+        position: absolute;
+        transform: rotate(90deg);
+        top: 80px;
+        left: -18px;
+    }
+    .border2{
+        width: 83px;
+        height: 3px;
+        background-color: black;
+        position: absolute;
+        transform: rotate(90deg);
+        top: 80px;
+        left: -18px;
+    }
+
+  </style>
+</head>
+<body>
+
+<!-- <div class="foodtype" style="margin: 20px;">
+  <button class="btn btn-success" style="margin-right: 20px;"><a href="" style="color: #fff;text-decoration: none;font-weight: 600;">Veg</a></button>
+  <button class="btn btn-danger"><a href="" style="color: #fff;text-decoration: none;font-weight: 600;">Non-Veg</a></button>
+
+</div> -->
+<div class="yourcarts" style="display: flex;background-color: gray;">
+    <div class="" style="width: 30%;padding-left: 10px;"><a href="browse-menu.html" style="color: #fff;"><i class="fa-solid fa-bars" style="font-size: 35px;padding-top: 7px;"></i></a></div>
+    <div class="" style="width: 70%;"><h1>Tracking</h1></div>
+    
+</div>
+
+<div class="tracking-order mt-5" style="text-align: center;padding: 25px;">
+<div class="dvry">
+<div class="roundsap" style="background-color: rgb(4, 70, 48);"><span>1</span></div>
+<h3>Order confirmation</h2>
+    <div class="border"></div>
+</div>
+<div class="dvry">
+    <div class="roundsap"><span>2</span></div>
+    <h3>Order recieved</h2>
+        <div class="border1"></div>
+    </div>
+   
+    <div class="dvry">
+        <div class="roundsap"><span>3</span></div>
+        <h3>Food is ready</h2>
+            <div class="border2"></div>
+        </div>
+       
+        <div class="dvry">
+            <div class="roundsap"><span>4</span></div>
+            <h3>Delivered</h2>
+                <div class="border3"></div>
+            </div>
+           
+
+
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
